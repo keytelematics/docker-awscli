@@ -1,4 +1,4 @@
-FROM docker:17.10
+FROM docker:17.10-git
 
 RUN apk -Uuv add groff less python py-pip && \
 	pip install awscli && \
