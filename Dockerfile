@@ -5,3 +5,4 @@ RUN apk -Uuv add groff less python py-pip jq gettext bash && \
 	apk --purge -v del py-pip && \
 	rm /var/cache/apk/*
 
+CMD ["bash"]
