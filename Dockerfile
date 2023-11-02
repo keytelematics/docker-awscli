@@ -1,4 +1,4 @@
-FROM docker:17.10-git
+FROM docker:git
 
 RUN apk -Uuv add groff less python py-pip jq gettext bash && \
 	pip install awscli && \
