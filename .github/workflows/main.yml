@@ -43,5 +43,5 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           push: true
-          tags: isanderthul/docker-awscli:latest
+          tags: keytelematics/docker-awscli:latest
           labels: ${{ steps.meta.outputs.labels }}
