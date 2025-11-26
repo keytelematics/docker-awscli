@@ -40,5 +40,5 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           push: ${{ github.ref == 'refs/heads/master' }}
-          tags: keytelematics/docker-awscli:2025.11
+          tags: keytelematics/docker-awscli:latest
           labels: ${{ steps.meta.outputs.labels }}
